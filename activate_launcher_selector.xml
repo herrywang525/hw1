@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013 ASUSTek Computer Inc. All rights reserved. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/launcher_welcome_page_activate_btn_normal_color"/>
+            <corners android:radius="@dimen/launcher_welcome_page_activate_button_corner_radius"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/launcher_welcome_page_activate_btn_press_color"/>
+            <corners android:radius="@dimen/launcher_welcome_page_activate_button_corner_radius"/>
+        </shape>
+    </item>
+</selector>

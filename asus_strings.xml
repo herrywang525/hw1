@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- start yhh -->
+    <string name="disable_confirm_dialog_text_new" maxWidth="">"The apps will be disabled, uninstalled its updates, and will be restored to its factory version. The app’s data, icons, and widgets will be removed.\n\nTo re-enable this app, go to Settings &gt; Apps"</string>
+    <string name="disable_confirm_dialog_checkbox" maxWidth="">"Do not show this again"</string>
+    <string name="disable_confirm_dialog_title_new" maxWidth="">"Disable and uninstall %s updates"</string>
+    <string name="att_cannot_uninstall_toast" maxWidth="">"This application cannot be removed or disabled"</string>
+    <string name="option_manage_app">"Manage apps"</string>
+    <string name="search_bar_title">"Search"</string>
+    <string name="allapps_options_lock">"Lock apps"</string>
+    <string name="allapps_options_hide">"Hide apps"</string>
+    <string name="allapps_options_search">"Search"</string>
+    <string name="show_all_apps">"All"</string>
+    <string name="show_download_apps">"Downloaded"</string>
+    <string name="show_recent_apps">"Frequent"</string>
+    <string name="edit_bar_title_lock">"Lock"</string>
+    <string name="edit_bar_title_hidden">"Hide%s"</string>
+    <string name="edit_bar_choosed_hidden">" apps"</string>
+    <string name="asus_view_mode_title" description="view mode title for view mode" maxWidth="-1">"View mode"</string>
+    <string name="celllayout_remove_button_disallow_toast" description="show toast when press remove button on cell layout">"Only can delete empty page"</string>
+    <string name="celllayout_remove_button_must_remain_on_page_toast" description="show toast when press remove button on cell layout if workspace only has the last page">"At least need to keep one home page for launcher normal usage"</string>
+    <!-- folder preview -->
+    <string name="settings_folder_style" maxWidth="">"Folder style"</string>
+    <string name="settings_folder_theme_grid22" maxWidth="">"Grid (2x2)"</string>
+    <string name="settings_folder_theme_grid33" maxWidth="">"Grid (3x3)"</string>
+    <string name="settings_folder_theme_stack" maxWidth="">"Stack"</string>
+    <string name="settings_folder_theme_fan" maxWidth="">"Fan"</string>
+    <string name="settings_folder_theme_line" maxWidth="">"Line"</string>
+    <string name="settings_folder_theme_card" maxWidth="">"Card"</string>
+    <string name="settings_folder_text" maxWidth="">"Folder"</string>
+    <string name="folder_preview_apply" maxWidth="">"Apply"</string>
+    <string name="folder_extra_preview_hint" maxWidth="">"Coming soon"</string>
+    <!-- database downgrade -->
+    <string name="database_downgrade_dialog_title">"Notification"</string>
+    <string name="database_downgrade_dialog_message">"An unexpected database error occurred, re-initializing the launcher settings to ensure the launcher runs well."</string>
+    <!-- LAUN-740 -->
+    <string name="settings_category_icon_settings" description="the category title for application icon settings" maxWidth="">"Font"</string>
+    <string name="settings_icon_size" description="the title for icon size settings" maxWidth="">"Icon size"</string>
+    <string name="settings_font_size" description="the title for font size settings" maxWidth="">"Font size"</string>
+    <string name="settings_font_style" description="the title for font style settings" maxWidth="">"Select font"</string>
+    <string name="settings_font_title" description="the title for general font settings" maxWidth="">"Font"</string>
+    <string name="settings_font_color" description="the title for icon label color settings" maxWidth="">"Icon label color"</string>
+    <string name="settings_font_color_dialog_title" description="the dialog title for icon label color settings" maxWidth="">"Select icon label color"</string>
+    <string name="settings_font_type_dialog_title" description="the dialog title for font style settings" maxWidth="">"Select font"</string>
+    <string name="settings_font_type_dialog_download" description="the button text to download new fonts" maxWidth="">"Download"</string>
+    <string name="settings_font_type_dialog_reload" description="the button text to reload installed fonts" maxWidth="">"Reload"</string>
+    <string name="settings_font_type_reload_dialog_title" description="the dialog title for reloading installed fonts" maxWidth="">"Reload font"</string>
+    <string name="settings_font_type_reload_dialog_message_title" description="the dialog title for reloading installed fonts" maxWidth="">"Reloading the font pack"</string>
+    <string name="settings_font_type_reload_dialog_message_result" description="the progress message for reloading installed fonts" maxWidth="">"%s font packages are found"</string>
+    <string name="system_default_font" description="the title for system default font" maxWidth="">"System default"</string>
+    <string name="label_system_font" description="the label for system default font" maxWidth="">"System"</string>
+    <!-- 2014/07/18, Tony_Hsu, App Sorter -->
+    <string name="action_sort_by" description="String for asking for the rule of sorting" maxwidth="-1">"Sort by"</string>
+    <string name="sort_by_a_z">"Sort from A to Z"</string>
+    <string name="sort_by_z_a">"Sort from Z to A"</string>
+    <string name="sort_by_frequency">"Frequency"</string>
+    <string name="sort_by_update_time">"Update time"</string>
+    <string name="sort_by_customized">"Customized"</string>
+    <string name="workspace_chooser_home_edit_button">"Home edit"</string>
+    <string name="workspace_chooser_edit_page_button">"Edit pages"</string>
+    <string name="workspace_chooser_title">"Manage Home"</string>
+    <string name="asus_workspace_cling_move_item">"Touch &amp; hold background to change wallpaper or add apps, widgets and additional home screen"</string>
+
+    <!-- end yhh -->
+    <!-- Dialog list for change wallpaper types on Launcher 2014/03/03 beyond_chao-->
+    <string-array name="wallpaper_chooser_list">
+        <item>"Home screen"</item>
+        <item>"Lock screen"</item>
+        <item>"Home and lock screen"</item>
+    </string-array>
+    <!-- TonyHsu, 2014/04/07, Empty page notification -->
+    <string name="empty_downloaded_notification" description="Show info on empty downloaded page" maxwidth="-1">"No downloads"</string>
+    <string name="empty_frequent_notification" description="Show info on empty frequent page" maxwidth="-1">"No frequently used application"</string>
+    <!-- Willie_Huang, 2014/04/23, Processing dialog -->
+    <string name="processing_dialog_body" description="Dialog body for processing preview">"Processing..."</string>
+    <!-- PingJung_Lu, 2014/06/05, uninstall/disable function-->
+    <string name="allapps_options_uninstall">"Uninstall/Disable"</string>
+    <string name="disable_target_uninstall_label">"Disable app"</string>
+    <!-- Tzu-Yen 2014/05/29 pagemanager  -->
+    <string name="screenpreview_replace_text" maxwidth="">"Replace"</string>
+    <string name="screenpreview_save_text" maxwidth="6">"Save"</string>
+    <string name="screenpreview_hint_text" maxwidth="">"Tap and hold Home screen to edit"</string>
+    <string name="screenpreview_title_text" maxwidth="">"Page Management"</string>
+    <!-- Tony_Hsu, Widget grid item -->
+    <string name="settings_change_widget_grid_size">"Grid size"</string>
+
+    <!-- Tony_Hsu, Edit mode options -->
+    <string name="done">"Done"</string>
+    <!-- Rod, scroll animation selector -->
+    <string name="settings_change_scroll_animation">"Change scroll animation"</string>
+    <string name="settings_change_scroll_animation_summary">"Change home screen and all apps page scroll animation"</string>
+    <string name="scroll_animation_types_wave">"Wave"</string>
+    <string name="scroll_animation_types_classic">"Classic"</string>
+    <string name="scroll_animation_types_revolving" maxWidth="">"Revolving"</string>
+    <string name="scroll_animation_types_cardflip" maxWidth="">"Card Flip"</string>
+    <string name="scroll_animation_types_windmill_upward">"Windmill\n(upward)"</string>
+    <string name="scroll_animation_types_windmill_downward">"Windmill\n(downward)"</string>
+    <string name="scroll_animation_types_fan">"Fan"</string>
+    <string name="scroll_animation_types_accordion">"Accordion"</string>
+    <string name="scroll_animation_types_flip">"Flip"</string>
+    <string name="scroll_animation_types_cube_inside">"Cube\n(inside)"</string>
+    <string name="scroll_animation_types_cube_outside">"Cube\n(outside)"</string>
+    <string name="scroll_animation_types_random">"Random"</string>
+    <!-- Rod -->
+    <string name="cancel_edit_title">"Note"</string>
+    <string name="cancel_edit_message">"If you leave this page without saving, all unsaved changes will be lost"</string>
+    <!-- Johnson2_Chen, LAUN-256, edit widget -->
+    <string name="widget_edit_target_label">"Edit"</string>
+    <!-- Roger Huang, launcher settings -->
+    <string name="settings_title">"System settings"</string>
+    <string name="settings_google_analytics_report">"Send usage statistics data to ASUS"</string>
+    <string name="settings_category_scroll_effect">"Scroll animation"</string>
+    <string name="allapps_options_edit">"Edit"</string>
+    <string name="allapps_options_auto_grouping">"Smart group"</string>
+    <string name="allapps_options_set_applock">"Set your AppLock"</string>
+    <string name="applock_settings">"AppLock settings"</string>
+    <!-- Tony_Hsu, launcher settings - Notification -->
+    <string name="settings_enable_function_title_uselless">"Enable Badge App icon service"</string>
+    <string name="settings_unread_counts_badge_title">"Unread counts badge"</string>
+    <string name="settings_notification_badge_enable_function" maxwidth="">"Enable function"</string>
+    <string name="settings_notification_badge_enable_summary">"Show number of unread messages on an app screen's upper right corner"</string>
+    <string name="settings_notification_badge_permission_list" maxwidth="">"Enable list"</string>
+    <string name="settings_notification_badge_application_not_installed" maxwidth="">"Not installed"</string>
+    <string name="settings_notification_badge_permission_function" maxwidth="">"Advanced functions"</string>
+    <string name="settings_notification_badge_permission_summary" maxwidth="">"Enable this function to support more app notification unread count on the icon."</string>
+    <!-- pagegallery -->
+    <string name="page_image_view_content_description">"Page"</string>
+    <string name="none_data_hint">"There is no existing Home screen page template to delete"</string>
+    <string name="activity_title_page_gallery">"Page gallery"</string>
+    <string name="pager_title_editor_title">"Enter the name"</string>
+    <string name="blank_page_title">"Blank page"</string>
+    <string name="dialog_gridview_delete">"Delete"</string>
+    <string name="dialog_gridview_rename">"Rename"</string>
+    <string name="gridview_delete_title">"Delete pages"</string>
+    <string name="fake_widget_title_text">"Widget is not installed"</string>
+    <string name="fake_widget_gotoplay_text">"Go to Google Play Store"</string>
+    <string name="fake_widget_gotoplay_text_cn">"Go to Apps Store"</string>
+    <string name="fake_widget_two_stage_widget_title_text">"Widget has not been set up"</string>
+    <string name="fake_widget_two_stage_widget_click_text">"Click to set up the widget"</string>
+    <string name="edit_file_name_title_invalid_hint">"Title is not valid"</string>
+    <string name="failed_to_add_new_page_toast">"You can only add up to 30 Home screen pages"</string>
+    <string name="page_gallery_page_has_been_saved">"Page has been saved"</string>
+    <string name="page_gallery_blank_page">"Failed to save the Home screen page. Page is empty."</string>
+    <string name="page_gallery_unexpected_error">"Failed to save the Home screen page due to an unexpected error."</string>
+    <string name="page_gallery_add_new_title">"Enter page name"</string>
+    <string name="page_gallery_new_page_default_hint">"ASUS theme"</string>
+    <string name="page_gallery_edit_item">"Edit item"</string>
+    <string name="page_gallery_default_page_name">"ASUS Home screen"</string>
+    <string name="page_gallery_item_not_match_toast">"Grid size setting does not match"</string>
+    <!-- Roger Huang, 2014/9/25, search bar hint text -->
+    <string name="search_hint">"Enter keywords"</string>
+    <string name="search_app_hint" maxWidth="">"Search for an app"</string>
+    <string name="search_widget_hint" maxWidth="">"Search for a widget"</string>
+    <!-- Roger Huang, 2014/9/25, Google Play categories -->
+    <string name="FOLDER_NAME_BOOKS_AND_REFERENCE">"Books &amp; Reference"</string>
+    <string name="FOLDER_NAME_BUSINESS">"Business"</string>
+    <string name="FOLDER_NAME_COMICS">"Comics"</string>
+    <string name="FOLDER_NAME_COMMUNICATION">"Communication"</string>
+    <string name="FOLDER_NAME_EDUCATION">"Education"</string>
+    <string name="FOLDER_NAME_ENTERTAINMENT">"Entertainment"</string>
+    <string name="FOLDER_NAME_FINANCE">"Finance"</string>
+    <string name="FOLDER_NAME_HEALTH_AND_FITNESS">"Health &amp; Fitness"</string>
+    <string name="FOLDER_NAME_LIBRARIES_AND_DEMO">"Libraries &amp; Demo"</string>
+    <string name="FOLDER_NAME_LIFESTYLE">"Lifestyle"</string>
+    <string name="FOLDER_NAME_APP_WALLPAPER">"Live Wallpaper"</string>
+    <string name="FOLDER_NAME_MEDIA_AND_VIDEO">"Media &amp; Video"</string>
+    <string name="FOLDER_NAME_MEDICAL">"Medical"</string>
+    <string name="FOLDER_NAME_MUSIC_AND_AUDIO">"Music &amp; Audio"</string>
+    <string name="FOLDER_NAME_NEWS_AND_MAGAZINES">"News &amp; Magazines"</string>
+    <string name="FOLDER_NAME_PERSONALIZATION">"Personalization"</string>
+    <string name="FOLDER_NAME_PHOTOGRAPHY">"Photography"</string>
+    <string name="FOLDER_NAME_PRODUCTIVITY">"Productivity"</string>
+    <string name="FOLDER_NAME_SHOPPING">"Shopping"</string>
+    <string name="FOLDER_NAME_SOCIAL">"Social"</string>
+    <string name="FOLDER_NAME_SPORTS">"Sports"</string>
+    <string name="FOLDER_NAME_TOOLS">"Tools"</string>
+    <string name="FOLDER_NAME_TRANSPORTATION">"Transportation"</string>
+    <string name="FOLDER_NAME_TRAVEL_AND_LOCAL">"Travel &amp; Local"</string>
+    <string name="FOLDER_NAME_WEATHER">"Weather"</string>
+    <string name="FOLDER_NAME_APP_WIDGETS">"Widgets"</string>
+    <string name="FOLDER_NAME_GAME">"Games"</string>
+    <string name="FOLDER_NAME_GAME_ACTION">"Action"</string>
+    <string name="FOLDER_NAME_GAME_ADVENTURE">"Adventure"</string>
+    <string name="FOLDER_NAME_GAME_ARCADE">"Arcade"</string>
+    <string name="FOLDER_NAME_GAME_BOARD">"Board"</string>
+    <string name="FOLDER_NAME_GAME_CARD">"Card"</string>
+    <string name="FOLDER_NAME_GAME_CASINO">"Casino"</string>
+    <string name="FOLDER_NAME_GAME_CASUAL">"Casual"</string>
+    <string name="FOLDER_NAME_GAME_EDUCATIONAL">"Educational"</string>
+    <string name="FOLDER_NAME_GAME_FAMILY">"Family"</string>
+    <string name="FOLDER_NAME_GAME_MUSIC">"Music"</string>
+    <string name="FOLDER_NAME_GAME_PUZZLE">"Puzzle"</string>
+    <string name="FOLDER_NAME_GAME_RACING">"Racing"</string>
+    <string name="FOLDER_NAME_GAME_ROLE_PLAYING">"Role Playing"</string>
+    <string name="FOLDER_NAME_GAME_SIMULATION">"Simulation"</string>
+    <string name="FOLDER_NAME_GAME_SPORTS">"Sports"</string>
+    <string name="FOLDER_NAME_GAME_STRATEGY">"Strategy"</string>
+    <string name="FOLDER_NAME_GAME_TRIVIA">"Trivia"</string>
+    <string name="FOLDER_NAME_GAME_WORD">"Word"</string>
+    <string name="FOLDER_NAME_FAMILY">"Family"</string>
+    <string name="FOLDER_NAME_FAMILY_ACTION">"Action &amp; Adventure"</string>
+    <string name="FOLDER_NAME_FAMILY_BRAINGAMES">"Brain Games"</string>
+    <string name="FOLDER_NAME_FAMILY_CREATE">"Creativity"</string>
+    <string name="FOLDER_NAME_FAMILY_EDUCATION">"Education"</string>
+    <string name="FOLDER_NAME_FAMILY_MUSICVIDEO">"Music &amp; Video"</string>
+    <string name="FOLDER_NAME_FAMILY_PRETEND">"Pretend Play"</string>
+    <!-- Rod, 2014/10/03, ungroup folders -->
+    <string name="ungroup_title">"Ungroup folder?"</string>
+    <string name="ungroup_message">"Apps folders will be ungrouped"</string>
+    <!-- Beyond, 2014/10/03, scrollable wallpaper -->
+    <string name="settings_scroll_wallpaper">"Wallpaper"</string>
+    <string name="settings_scroll_wallpaper_subtitle">"Scrollable wallpaper"</string>
+    <string name="settings_scroll_wallpaper_summary">"Wallpaper scrolls with the screen"</string>
+    <!-- Roger, 2014/10/03, about page -->
+    <string name="settings_about_title">"About"</string>
+    <string name="settings_about_version">"Version"</string>
+    <!-- Roger, 2014/10/03, ZenWatch companion apps -->
+    <string name="zenwatch_detect_notification_detail">"Detected"</string>
+    <string name="zenwatch_detect_big_notification_detail">"We prepare some amazing applications that empower your watch functions most. Do you want to get the download shortcut on your home screen?"</string>
+    <string name="zenwatch_detect_notification_action_ok">"OK"</string>
+    <string name="zenwatch_detect_notification_action_cancel">"Cancel"</string>
+    <!-- Sowhat, 2014/10/03, AppLock -->
+    <string name="dialog_button_skip">"Skip"</string>
+    <string name="google_account_setup">"Account setup"</string>
+    <string name="toast_set_google_account_fail">"Account setup failed"</string>
+    <string name="toast_set_google_account_success">"Account setup is successful"</string>
+    <string name="toast_verify_google_account_success">"Please reset your password"</string>
+    <!-- Sowhat, 2014/10/13, AppLock -->
+    <string name="auto_unlock_description">"Password input is required again only when the system wakes up from sleep mode"</string>
+    <string name="set_google_account_description">"Please set a Google account for the \"forgot password\" situation.\n\nWithout this setup, you will be unable to retrieve or reset the password when forgetting it."</string>
+    <string name="menu_remove_widgets_description">"Remove the locked apps' widgets from the Home screen and the Widgets list"</string>
+    <string name="menu_hide_notifications_description">"Hide the locked apps' notifications from the notification list"</string>
+    <string name="toast_verify_google_account_fail">"Verification failed. Please try again."</string>
+    <!-- Vincent, 2014/10/13, Help & tips -->
+    <string name="tutorial_next_step_text">"Next"</string>
+    <string name="tutorial_step2_text">"Customize app list"</string>
+    <string name="tutorial_step3_text">"Rearrange apps by your own"</string>
+    <string name="tutorial_step3_detail">"Drag app icon to rearrange or create folders."</string>
+    <string name="tutorial_step1_text">"Smart group by app type"</string>
+    <string name="tutorial_step1_detail" maxWidth="">"Tap the smart group button to classify apps automatically."</string>
+    <string name="tutorial_step2_detail" maxWidth="">"Tap "Edit" or "Smart group" to rearrange the app icons or classify apps automatically."</string>
+    <!-- Rod, 2014/10/13, Background settings -->
+    <string name="settings_adjust_all_apps_transparency">"Background transparency"</string>
+    <string name="settings_adjust_all_apps_transparency_summary_onelayer" maxWidth="">"Widgets and folders screen"</string>
+    <string name="settings_adjust_all_apps_transparency_summary_twolayer" maxWidth="">"All apps, widgets, and folders screen"</string>
+    <string name="st_adjust_all_apps_transp_summary_onelayer_oldfolder" maxWidth="">"Widgets screen"</string>
+    <string name="st_adjust_all_apps_transp_summary_twolayer_oldfolder" maxWidth="">"All apps and widgets screen"</string>
+    <!-- Rod smart group dialog -->
+    <string name="switch_to_customized_title">"Browsing Mode Switch"</string>
+    <string name="switch_to_customized_message">"All apps screen will auto switch to customized mode after entering edit mode."</string>
+    <string name="do_not_ask_again">"Don't ask me again"</string>
+    <!-- SoWhat, 2014/12/19, AppLock -->
+    <string name="setup_applock_mode" maxwidth="">"Unlocked period"</string>
+    <string name="applock_mode_everytime" maxwidth="">"None"</string>
+    <plurals name="applock_mode_3_min_period" maxwidth="">
+        <item quantity="one">"1 minute"</item>
+        <item quantity="other">"%1$d minutes"</item>
+    </plurals>
+    <string name="applock_mode_screen_off" maxwidth="">"Until screen off"</string>
+    <string name="applock_mode_everytime_description" maxwidth="">"AppLock will always lock"</string>
+    <plurals name="applock_mode_3_min_period_description" maxwidth="">
+        <item quantity="one">"AppLock will be disabled for 1 minute after you unlock one of the locked apps"</item>
+        <item quantity="other">"AppLock will be disabled for %1$d minutes after you unlock one of the locked apps"</item>
+    </plurals>
+    <string name="applock_mode_screen_off_description" maxwidth="">"AppLock will be disabled from your unlocking one of the locked apps until the screen turns off"</string>
+    <!-- AppLock -->
+    <string name="account_removed_notification" description="notify user the account used for AppLock is removed" maxWidth="-1">"The account assigned for verification has been removed"</string>
+    <string name="alert_password" description="tell the user input correct password characters" maxWidth="-1">"Please use alphanumeric characters"</string>
+    <string name="applock_name" description="applock name" maxWidth="">"AppLock"</string>
+    <string name="clear_data_dlg_title">"Delete app data?"</string>
+    <string name="clear_data_dlg_text">"All this app's data will be deleted permanently. This includes all files, settings, accounts, databases, etc."</string>
+    <string name="dialog_content_confirm_new_password" description="Dialog's column title" maxWidth="">"Confirm new password:"</string>
+    <string name="dialog_content_enable_lock" decription="Dialog's prompt, check whether if the user want to enable lock. AppLock is for user to lock the applications" maxWidth="">"AppLock is disabled. Do you want to activate it?"</string>
+    <string name="dialog_content_enter_the_password" description="Dialog's prompt, inform user enter password to open AppLock" maxWidth="-1">"Please enter the password"</string>
+    <string name="dialog_content_enter_the_old_password">"Enter the old password"</string>
+    <string name="dialog_content_forget_password_button" description="Dialog's button" maxWidth="-1">"Forgot your password?"</string>
+    <string name="dialog_content_new_password" description="Dialog's column title" maxWidth="">"New password:"</string>
+    <string name="dialog_content_old_password" description="Dialog's column title" maxWidth="">"Enter old password:"</string>
+    <string name="dialog_content_password" description="Dialog's column title" maxWidth="-1">"Password:"</string>
+    <string name="dialog_content_set_the_password" description="Dialog's prompt, inform user to setup password" maxWidth="-1">"Create the password."</string>
+    <string name="dialog_content_which_application_is_locked_new" description="Dialog's prompt, inform user which appcalition is locked" maxWidth="-1">"This app is locked. Please enter your password to continue."</string>
+    <string name="dialog_title_change_the_password" description="Dialog's title, inform user to change the password" maxWidth="-1">"Change password"</string>
+    <string name="dialog_title_set_the_password" description="Dialog's title, inform user to setup the password" maxWidth="-1">"Set password"</string>
+    <string name="dialog_title_enter_the_password" description="Dialog's title, inform user to input the password" maxWidth="-1">"Enter password"</string>
+    <string name="edittext_hint_password_must_be" description="Hint to let user input correct passoword characters" maxWidth="17">"4-12 characters"</string>
+    <string name="edittext_hint_password_must_be_digits" description="Hint to let user input correct passoword characters" maxWidth="17">"4-12 digits"</string>
+    <string name="legal_content" description="content of about dialog" maxwidth="-1">"Use this software is subject to terms and conditions on ASUS website: \nhttp://www.asus.com"</string>
+    <string name="legal_information" description="content of about dialog" maxwidth="-1">"Legal Information:"</string>
+    <string name="menu_about" description="Menu item: chosen to show about page" maxWidth="-1">"About"</string>
+    <string name="menu_change_password" description="Menu item: chosen to change password" maxWidth="-1">"Change password"</string>
+    <string name="menu_enable_lock" description="Menu item: chosen to to activate Asus Locker. AppLock is for user to lock the applications" maxWidth="-1">"Activate AppLock"</string>
+    <string name="menu_hide_notification" description="Menu item: chosen to hide locked notification icon" maxWidth="-1">"Hide notification"</string>
+    <string name="menu_remove_widgets" description="Menu item: chosen to remove widgets on launcher" maxWidth="-1">"Remove widget"</string>
+    <string name="toast_password_change_success" description="toast message inform the user that the password is changed successfully" maxWidth="">"Password is changed successfully"</string>
+    <string name="toast_password_error" description="toast message inform the user that he input invalid password" maxWidth="">"Invalid password"</string>
+    <string name="toast_success" description="toast message inform the user that the password is verified successfully" maxWidth="">"Valid password"</string>
+    <string name="version" description="content of about dialog" maxwidth="-1">"Version"</string>
+    <string name="keyboardview_keycode_delete">"Delete"</string>
+    <string name="keyboardview_keycode_enter">"Enter"</string>
+    <string name="keyguard_accessibility_pin_unlock">"Pin unlock."</string>
+    <!-- mingchun_hsu, 20150708, option cm applock -->
+    <string name="allapps_options_applock_mode">"AppLock mode"</string>
+    <string name="allapps_options_applock_advanced">"Advanced (powered by CMCM)"</string>
+    <string name="allapps_options_applock_basic">"Basic"</string>
+    <string name="advanced_applock_descriptions_1">"Support intruder selfie"</string>
+    <string name="advanced_applock_descriptions_2">"Support pattern lock and PIN code"</string>
+    <string name="basic_applock_descriptions_1">"Support PIN code only"</string>
+    <string name="mode_item_is_applied">"Applied"</string>
+    <string name="mode_item_apply">"Apply"</string>
+    <string name="friendly_reminder_title">"Friendly Reminder"</string>
+    <string name="applock_switch_mode_reminder_message_with_locked">"Enter your old password to switch mode and reselect Apps you want to protect."</string>
+    <string name="applock_switch_mode_reminder_message_without_locked">"Enter your old password to switch mode."</string>
+    <string name="applock_switch_mode_successful">"Switch successfully"</string>
+    <string name="start_applock_from_cm_title">"ASUS Launcher integrates CM AppLock!"</string>
+    <string name="start_applock_from_cm_message_with_locked">"Enjoy the new snooper catching function brought to you by Clean Master. Simply reselect the apps that you want to protect and enjoy better privacy!"</string>
+    <string name="start_applock_from_cm_message_without_locked">"Enjoy the new snooper catching function brought to you by Clean Master with better privacy!"</string>
+    <string name="start_applock_from_cm_request_password">"Please enter your AppLock password in ASUS Launcher to enjoy CM AppLock"</string>
+    <string name="start_applock_from_cm_upgrade">"Enjoy Now"</string>
+    <string name="start_applock_from_cm_not_now">"Not Now"</string>
+    <string name="start_applock_from_cm_successful">"Upgrade successfully"</string>
+    <string name="allapps_options_applock_mode_disable">"Disable Advanced AppLock"</string>
+    <string name="allapps_options_applock_mode_disable_summary">"Fully deactivate Advanced AppLock (powered by CMCM) and remove it from AppLock mode"</string>
+    <string name="allapps_options_applock_mode_disable_message">"Enter your old password to deactivate Advanced AppLock"</string>
+    <!-- AppLock Receiver-->
+    <string name="locked_successfully">"Locked successfully"</string>
+    <string name="unlocked_successfully">"Unlocked successfully"</string>
+    <!-- Roger Huang, 2014/12/10, encourage us-->
+    <string name="settings_encourage_us_title" maxWidth="">"Encourage us"</string>
+    <string name="settings_encourage_us_detail" maxWidth="">"If you enjoy using ASUS Launcher, please rate us 5-star on Play Store. It would be a great encouragement for us to continue improving the product!"</string>
+    <!-- Iconpack -->
+    <string name="settings_iconpack_category" maxWidth="">"Icon/Folder"</string>
+    <string name="iconpack_chooser_goto_googleplay_subtitle" maxWidth="">"More icon packs"</string>
+    <string name="iconpack_chooser_goto_googleplay_button" maxWidth="">"Get more"</string>
+    <string name="iconpack_chooser_blank_subtitle" maxWidth="">"Coming soon"</string>
+    <!-- LAUN-517, support animation icon -->
+    <string name="settings_animation_icon_title" description="Animated app icon settings title" maxWidth="-1">"Animated app icon"</string>
+    <string name="settings_animation_icon_summary" description="Animated app icon settings summary" maxWidth="-1">"App icon will update information automatically"</string>
+    <!-- Roger Huang, 2015/1/7, 3x3 Manage Home -->
+    <string name="workspace_chooser_theme_button" description="button to change themes" maxwidth="">"Themes"</string>
+    <string name="workspace_chooser_scroll_effect_button" description="button to change scrolling effect of pages" maxwidth="">"Scroll effects"</string>
+    <string name="workspace_chooser_preferences_button" description="button to open Launcher settings" maxwidth="">"Preferences"</string>
+    <string name="workspace_chooser_more_button" description="button to open a dialog with more options" maxwidth="">"More"</string>
+    <string name="workspace_chooser_share_button" description="button to share" maxwidth="">"Share"</string>
+    <string name="workspace_chooser_more_options" description="the title for the dialog with additional options" maxwidth="">"More options"</string>
+    <string name="package_state_unknown">"Unknown"</string>
+    <!-- Roger Huang, 2015/02/03, rate us-->
+    <string name="workspace_chooser_rate_us_title" maxWidth="">"Rate us"</string>
+    <string name="workspace_chooser_rate_us_detail" maxWidth="">"Rate 5 stars"</string>
+    <!-- Recommend folder -->
+    <string name="btn_retry">"Retry"</string>
+    <string name="warning_message">"Internet is required to view the current app list. Please enable mobile network or Wi-Fi in Settings."</string>
+    <string name="no_network">"No Internet connection, please check your network settings."</string>
+    <string name="btn_download" description="the button text to download recommended apps" maxwidth="">"Download"</string>
+    <string name="enable_recommend" description="enable asus select title " maxWidth="">"Enable ASUS Select at Home screen"</string>
+    <string name="server_busy">"Server is still busy. Please try again later."</string>
+    <string name="enable_hot_downloads" description="enable hot downloads title " maxWidth="">"Enable Hot Downloads on home screen"</string>
+    <string name="retriving_app">"Searching for popular apps"</string>
+    <string name="btn_getmore">"Get more Apps"</string>
+    <!-- Roger Huang, 2015/03/06, LauncherSettings -->
+    <string name="settings_home_category" description="the category title for home screen settings" maxWidth="">"Home screen"</string>
+    <string name="settings_all_app_category" description="the category title for all apps settings" maxWidth="">"All apps"</string>
+    <!-- Willie_huang, 2015/03/25, Manage Home -->
+    <string name="workspace_chooser_apps_widgets_button" description="button to open all apps" maxwidth="">"Apps &amp; Widgets"</string>
+    <!-- Virtual preload stub 2015/02/25 Blaize -->
+    <string name="downloading">"Downloading"</string>
+    <string name="network_required">"Internet is required to download"</string>
+    <string name="wifi_only">"Enable Wi-Fi to download"</string>
+    <!-- Rod, zenlife -->
+    <string name="settings_slide_to_launch_zenlife">"Enable"</string>
+    <!-- full screen folder -->
+    <string name="recommend_title_text" maxWidth="">"NEARBY HOT DOWNLOADS"</string>
+    <string name="enable_recently" description="enable recently title " maxWidth="">"Enable Recently on home screen"</string>
+    <string name="enable_downloaded" description="enable downloaded title " maxWidth="">"Enable Downloaded on home screen"</string>
+    <!-- Rod, auto smart group -->
+    <string name="enable_auto_smart_group_new">"This automatically enables the Smart group feature on your All Apps screen. When enabled, newly-installed apps are automatically categorized and placed in an existing group.\n\nAttention: Customized All App list could be rearranged."</string>
+    <string name="allapps_auto_smart_group">"Enable Auto Smart group?"</string>
+    <string name="enable_auto_smart_group_allapps_new">"Let us help you organize your app drawer! Please go preference and try our new feature \u0022Auto smart group\u0022"</string>
+    <!-- Beyond_Chao, 2015/05/04, Launcher Layout Mode -->
+    <string name="layout_mode_subtitle" description="launcher user-interface" maxwidth="">"Layout"</string>
+    <string name="layout_mode_category_two_layer" description="one mode of the launcher user-interface" maxwidth="">"Two layer mode"</string>
+    <string name="layout_mode_category_one_layer" description="the other mode of the launcher user-interface" maxwidth="">"One layer mode"</string>
+    <string name="layout_mode_alertdialog_title_onelayer" description="a hint to change launcher user-interface" maxwidth="12">"Switch to two layer"</string>
+    <string name="layout_mode_alertdialog_title_twolayer" description="a hint to change launcher user-interface" maxwidth="12">"Switch to one layer"</string>
+    <string name="layout_mode_alertdialog_descriptions_2" description="detailed descriptions if launcher user-interface mode changes" maxwidth="">"Launcher will restart"</string>
+    <string name="layout_mode_descriptions_layer_1_new" maxwidth="20">"Includes the All Apps button."</string>
+    <string name="layout_mode_descriptions_layer_2_new" maxwidth="20">"The original Android experience."</string>
+    <string name="layout_mode_descriptions_single_1_new" maxwidth="20">"No All Apps button. Simple and easy."</string>
+    <string name="layout_mode_descriptions_single_3_new" maxwidth="">"When switched to One layer mode, apps are displayed in smart group on the Home screen."</string>
+    <string name="asus_app_store_title" description="title for ASUS app store" maxwidth="">"ASUS app store"</string>
+    <string name="icon_packs_title" description="the function to set the icons for launcher" maxwidth="">"Icon packs"</string>
+    <string name="launcher_font_title" description="title for launcher font settings" maxwidth="">"Launcher fonts"</string>
+    <string name="tutorial_gesture_up_manage_home" description="the tutorial text for up-sliding gesture, which opens manage home user interface" maxwidth="">"Swipe up to launch Manage Home"</string>
+    <string name="tutorial_gesture_down_search" description="the tutorial text for down-sliding gesture, which opens apps search user interface" maxwidth="">"Swipe down to search apps"</string>
+    <string name="message_delete_non_empty_page_fail" description="message shown when we fail to delete non-empty page" maxwidth="">"You may only delete an empty page"</string>
+    <string name="new_version_found_notification_detail" description="notification text when we found a new version of launcher" maxwidth="">"Enjoy a new version soon!"</string>
+    <string name="layout_mode_alertdialog_descriptions" description="detailed descriptions if launcher user-interface mode changes" maxwidth="">"The layout and settings will be saved when you switch modes.\n\nLauncher will restart."</string>
+    <string name="layout_mode_alertdialog_title" description="a hint to change launcher user-interface" maxwidth="">"Switch layout"</string>
+    <string name="layout_mode_category_layer" description="one mode of the launcher user-interface" maxwidth="">"Layer mode"</string>
+    <string name="layout_mode_category_single" description="the other mode of the launcher user-interface" maxwidth="">"Single mode"</string>
+    <string name="layout_mode_descriptions_layer_1" maxwidth="">"With drawer for a cleaner app placement."</string>
+    <string name="layout_mode_descriptions_layer_2" maxwidth="">"Shortcuts are on the Home screen, the original Android experience."</string>
+    <string name="layout_mode_descriptions_single_1" maxwidth="">"No drawer, simple and easy."</string>
+    <string name="layout_mode_descriptions_single_2" maxwidth="">"All apps are displayed in Home screen."</string>
+    <string name="layout_mode_descriptions_single_3" maxwidth="">"When switched to Single mode, the apps are displayed in Smart group on the Home screen."</string>
+    <!--  Toast animation for rating-->
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"Please scroll up to rate"</string>
+    <!-- Gesture settings -->
+    <string name="settings_swipe_down_gesture" description="Swipe down gesture setting title" maxwidth="">"Swipe down gesture"</string>
+    <string name="settings_gesture_notification_panel_preference" description="Preference title for swiping down to open notification panel" maxwidth="">"Open notification panel"</string>
+    <string name="settings_gesture_quick_find_preference" description="Preference title for swiping down to enter quick find" maxwidth="">"Launch Quick Find"</string>
+    <!-- LAUN-855, use for folder grid size settings-->
+    <string name="settings_change_folder_grid_size">"Folder Grid size"</string>
+    <string name="settings_folder_theme">"Folder theme"</string>
+    <string name="folder_style_full_screen">"Full screen"</string>
+    <string name="folder_style_full_screen_summary">"Enable full screen style folder"</string>
+    <string name="folder_style_classic">"Classic"</string>
+    <string name="discovery_apps">"Discovery apps"</string>
+    <string name="discovery_apps_summary">"Recommend apps in full screen style folder"</string>
+    <string name="recommendation">"Recommendation"</string>
+    <string name="folder_style_dialog_message">"Provide new app folders opening in full screen mode. Go to try it in the home preference"</string>
+    <string name="folder_recommend_dialog_message">"choose your favor"</string>
+    <string name="no_recommend">"No Recommend"</string>
+    <string name="recommend">"Recommend"</string>
+    <string name="folder_style_dialog_title">"Reminder"</string>
+    <!-- Lock home screen -->
+    <string name="menu_lock_screen">"Lock Home Screen"</string>
+    <string name="toast_lock_screen">"Home screen is locked"</string>
+    <string name="dialog_message_lock_screen">"Prevent random changes or accidental drag and drops."</string>
+    <string name="confirm_lock_screen">"Lock"</string>
+    <!-- Launcher theme -->
+    <string name="launcher_theme_title" description="title for launcher theme" maxwidth="">"Launcher theme"</string>
+    <!-- Herry, 20150819, workspace grid setting for 5", 6" device -->
+    <string name="settings_workspace_grid_5_6_devices">"Grid size"</string>
+    <string name="toast_workspace_grid_change">"Modifying the grid size may affect the position and layout of icons and widgets"</string>
+    <string name="settings_about_check_update">"Check for updates"</string>
+    <string name="settings_about_current_version">"Current version: %s"</string>
+    <!-- Irene, CTA permission check dialog -->
+    <string name="cta_no_next_time">"Don't show this again"</string>
+    <string name="cta_act_title">"Notice"</string>
+    <string name="cta_act_use_network_msg">"Will you allow the use of the mobile network? It may incur fees depending on your network plan."</string>
+    <string name="rate_us_dialog_title_default">"Encourage us!"</string>
+    <string name="rate_us_dialog_title_new_feature">"Like our new feature?"</string>
+    <string name="rate_us_dialog_detail_default">"Your support with 5-star rating empowers us to continue our work!"</string>
+    <string name="rate_us_dialog_detail_new_feature">"We hope you enjoy it :) Please encourage us with a 5-star rating."</string>
+    <string name="rate_us_dialog_five_star_rating">"5-star rating"</string>
+    <string name="update_reminder_title">"ASUS Launcher update"</string>
+    <string name="update_reminder_detail_icon_pack_preview">"New \"Icon packs preview\" feature!"</string>
+    <string name="settings_transparent_status_bar_title">"Status bar transparency"</string>
+    <string name="settings_transparent_status_bar_summary">"Adjust transparency of status bar."</string>
+    <string name="settings_set_as_default_home">"Set as default home"</string>
+    <string name="settings_folder_and_icon">"Folder / Icon"</string>
+    <string name="settings_font_color_summary">"Adjust the text color of icon."</string>
+    <string name="settings_badge_app_icon">"Badge app icon"</string>
+    <string name="settings_notification_access">"Notification access"</string>
+    <string name="settings_lock_home_screen">"Lock home screen"</string>
+    <string name="settings_inspire_asus">"Inspire ASUS"</string>
+    <string name="settings_folder_grid_size">"Folder grid size"</string>
+    <string name="settings_inspire_asus_summary">"Collect anonymous usage data for ASUS to enhance user experience."</string>
+    <string name="settings_auto_smart_group_title">"Auto smart group"</string>
+    <string name="settings_auto_smart_group_summary">"Automatically groups related apps together."</string>
+    <string name="settings_background_transparency_summary">"Adjust background transparency of All apps and widgets screen."</string>
+    <string name="settings_background_transparency_summary_single">"Adjust background transparency of widgets screen."</string>
+    <string name="settings_scroll_effect_summary">"Change scroll effects for home screen and All apps screen."</string>
+    <string name="settings_scroll_effect_summary_single">"Change scroll effects for home screen."</string>
+    <string name="settings_show_more_apps_in_folders">"Show \"More apps\" in folder"</string>
+    <string name="settings_show_more_apps_in_folders_summary">"Guide you to discover more useful apps."</string>
+    <string name="settings_apps_recommend">"Apps recommendation"</string>
+    <string name="settings_apps_recommend_summary">"Show “App recommendation” in folder view."</string>
+    <string name="settings_join_beta_users">"Join our beta users"</string>
+    <string name="settings_tell_a_friend">"Tell a friend"</string>
+    <string name="settings_tell_a_friend_subject">"Share with you - ZenUI Launcher"</string>
+    <string name="settings_tell_a_friend_text">"I’ve been customized stylish home screen with ZenUI Launcher, which can easily personalize my device. Try it NOW! :D\nhttps://play.google.com/store/apps/details?id=com.asus.launcher"</string>
+    <string name="settings_tell_a_friend_chooser_title">"Share ZenUI Launcher"</string>
+    <string name="settings_open_source_licenses">"Open source licenses"</string>
+    <string name="settings_open_source_licenses_summary">"License notices for open source software"</string>
+    <string name="settings_open_source_licenses_activity_title">"Attribution Notice"</string>
+    <string name="settings_end_user_license_agreement">"End-user license agreement"</string>
+    <string name="settings_end_user_license_agreement_activity_title">"End-user license agreement"</string>
+    <string name="eula_content_0" description="Do not translate ASUS and \n. Do not translate ©ASUSTeK Computer Inc.">"This End User License Agreement (“EULA”) constitutes a valid and binding agreement between ASUSTeK Computer Inc. (“ASUS“) and You, as a user, for the use of the ASUS Software (“Software”) defined as set forth below. By installing and continuing to use the software YOU EXPRESSLY ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND AND AGREE TO BE BOUND BY THE TERMS OF THIS EULA AND ANY NEW VERSIONS HEREOF.\n"</string>
+    <string name="eula_content_1" description="Do not translate ASUS and \n">"1. SOFTWARE means the ASUS Software provided in or with the applicable ASUS product including but not limited to any future programming fixes, updates, upgrades and modified versions.\n"</string>
+    <string name="eula_content_1_1" description="Do not translate ASUS and www.opensource.org/licenses">"The Software may be accompanied by other ASUS- or third party created software that is licensed under one or more of the Free Open Source Software licenses as listed under www.opensource.org/licenses. Such Free Open Source Software is provided to you solely under the terms of the respective license agreement or copyright notice accompanying it or in the FOSS licenses file accompanying the Software. The terms of this EULA do NOT apply to such Free Open Source Software."</string>
+    <string name="eula_content_2" description="Do not translate ASUS and \n">"\n2. LICENSE Subject to the terms of this EULA, ASUS hereby grants You a limited, personal, non-commercial, non-exclusive license to use the Software solely as embedded in the ASUS products. You may make one copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. This license shall not be sublicensed, and is not transferable except to a person or entity to whom you transfer ownership of the complete ASUS products containing the Software, provided you permanently transfer all rights under this EULA and do not retain any full or partial copies of the Software, and the recipient agrees to the terms of this EULA.\n"</string>
+    <string name="eula_content_3" description="Do not translate ASUS and \n">"3. REVERSE RESTRICTION You shall not reverse engineer, decompile decrypt or disassemble the Software or permit or induce the foregoing except to the extent directly applicable law prohibits enforcement of the foregoing.\n"</string>
+    <string name="eula_content_4" description="Do not translate ASUS and \n">"4. CONFIDENTIAL ITY You shall have a duty to protect and not to disclose or cause to be disclosed in whole or in part of confidential information of the Software including but not limited to trade secrets, copyrighted material in any form to any third party.\n"</string>
+    <string name="eula_content_5" description="Do not translate ASUS and \n">"5. Intellectual Property RIGHTS (“IP Rights”) You acknowledge and agree that all IP Rights, title, and interest to or arising from the Software are and shall remain the exclusive property of ASUS or its licensor. Nothing in this EULA intends to transfer any such IP Rights to You. Any unauthorized use of the IP Rights is a violation of this EULA as well as a violation of intellectual property laws, including but not limited to copyright laws and trademark laws. By sending any information, material, ideas, concepts or techniques except for personal information to ASUS through the Software (“Feedbacks”), You acknowledge and agree that: (i) Your Feedbacks shall not contain confidential or proprietary information; (ii) ASUS is under no obligation of any kind of confidentiality, express or implied, regarding the Feedbacks; (iii)ASUS shall be entitled to use or disclose, at ASUS's sole discretion, the Feedbacks for any purpose, in any way, worldwide; (iv) Your Feedbacks shall become the property of ASUS without any obligation of ASUS to You; and (v) You are not entitled to any compensation or reimbursement of any kind from.\n"</string>
+    <string name="eula_content_6" description="Do not translate ASUS and \n">"6. TERM AND TERMINATION This EULA will be effective as of the date You install the Software. You may terminate this License at any time by ceasing all use of the Software and removing the Software from ASUS product. Your right will terminate without prior notice from ASUS if we think You fail to comply with any provision of this EULA.\n"</string>
+    <string name="eula_content_7" description="Do not translate ASUS and \n">"7. Warranty Disclaimer and Limitation of Liability YOU ACKNOWLEDGE THAT THE SOFTWARE IS PROVIDED “AS IS.” THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THIS SOFTWARE IS WITH YOU, INCLUDING BUT NOT LIMITED TO RELATED COST OF ALL NECESSARY SERVICING AND REPAIR. TO THE EXTENT PERMITTED BY LAW, ASUS MAKES NO WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE OR ANY OTHER INFORMATION OR DOCUMENTATION PROVIDED UNDER THIS EULA OR FOR THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR AGAINST INFRINGEMENT, OR ANY WARRANTY ARISING OUT OF USAGE OR OUT OF COURSE OF PERFORMANCE. ASUS ALSO MAKES NO WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THIS SOFTWARE OR AS TO THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THIS SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.\n\nTHE ENTIRE RISK ARISING OUT OF THE USE AND/OR PERFORMANCE OF THIS SOFTWARE REMAINS WITH YOU. IN NO EVENT SHALL ASUS, ITS LICENSORS OR ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR AFFILIATES BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, INTERRUPTION, LOSS OF INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF OR RELATING TO THIS EULA OR THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY PART THEREOF, EVEN IF ASUS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.\n"</string>
+    <string name="eula_content_8" description="Do not translate ASUS and \n">"8. Indemnity YOU agree to defend, indemnify and hold harmless ASUS and its affiliates, service providers, syndicators, distributors, licensors, officers, directors and employees, from and against any and all losses, damages, liabilities, and expenses arising out of any claim or demand (including reasonable attorneys' fees and court costs), due to or in connection with YOUR violation of this EULA or any applicable law or regulation, or third-party right.\n"</string>
+    <string name="settings_privacy_policy">"Privacy policy"</string>
+    <string name="settings_terms_of_use_notice">"Terms of use notice"</string>
+    <string name="settings_grid_size_of_all_apps">"Grid size of All apps"</string>
+    <!-- developer preference -->
+    <string name="settings_developer_preference_name">"Developer options"</string>
+    <string name="settings_developer_preference_memory_chart">"Memory info"</string>
+    <string name="settings_developer_preference_send_error_report">"Send error report"</string>
+    <string name="settings_developer_preference_ui_info">"User interface info"</string>
+    <string name="settings_developer_preference_item_type">"Shortcut item type"</string>
+    <string name="settings_developer_preference_dump_databases">"Dump databases"</string>
+    <string name="setting_developer_preference_themestore">"Force open Theme Store"</string>
+    <!-- LAUN-700, change icon size -->
+    <string name="toast_title_may_truncate">"Modify icon size may truncate the label of icon."</string>
+    <!-- AppLock settings option, protection reminder -->
+    <string name="applock_protection_reminder_title">"Protection reminder"</string>
+    <string name="applock_protection_reminder_summary">"Proactively remind you that you are using personal-related apps"</string>
+    <!-- Herry, launcher welcome page-->
+    <string name="asus_launcher_app_title">ZenUI Launcher</string>
+    <string name="launcher_welcome_page_introduction">Intuitive. Fast. Stylish.</string>
+    <string name="launcher_welcome_page_flip_page">Next</string>
+    <string name="launcher_welcome_page_set_layer">Choose home screen layer</string>
+    <string name="launcher_welcome_page_one_layer">One layer</string>
+    <string name="launcher_welcome_page_one_layer_desc">Place all apps on home screen.</string>
+    <string name="launcher_welcome_page_two_layer">Two layer</string>
+    <string name="launcher_welcome_page_two_layer_desc">Independent home screen and all apps. You can place shortcuts on home screen.</string>
+    <string name="launcher_welcome_page_activate_button">Get started!</string>
+    <string name="launcher_welcome_page_progress_bar_desc">Preparing your home</string>
+    <!-- AsusLauncher Tips -->
+    <string name="tips_dialog_title" description="title of quick find tips dialog" maxwidth="19">"New! Swipe down to launch Quick Find"</string>
+    <string name="tips_dialog_body" description="body of quick find tips dialog" maxwidth="">"Instantly access your apps, contacts and search online"</string>
+    <string name="tips_dialog_positive_btn" description="apply new feature: quick find" maxwidth="13">"Try now"</string>
+    <string name="tips_dialog_negative_btn" description="apply the previous settings" maxwidth="13">"Try it later"</string>
+    <!-- Fake time widget -->
+    <string name="fake_time_widget" description="name of UTA clock widget" maxwidth="">"ASUS Clock"</string>
+    <!-- George, Market -->
+    <string name="market_shortcut_title">"More Apps"</string>
+    <!-- IconPack preview chooser connecting themeStore-->
+    <string name="iconpack_theme_store_title" maxwidth="">"Theme store"</string>
+    <!-- Theme Store -->
+    <string name="action_settings">@string/settings</string>
+    <string name="asus_theme_chooser_all_theme">"All"</string>
+    <string name="asus_theme_chooser_applied">"Applied"</string>
+    <string name="asus_theme_chooser_apply">"Apply"</string>
+    <string name="asus_theme_chooser_apply_finish">"Theme applied"</string>
+    <string name="asus_theme_chooser_apply_process">"Applying…"</string>
+    <string name="asus_theme_chooser_apply_wait">"Please wait…"</string>
+    <string name="asus_theme_chooser_author">"author"</string>
+    <string name="asus_theme_chooser_btn_buy">"Buy it!"</string>
+    <string name="asus_theme_chooser_btn_free">"Free"</string>
+    <string name="asus_theme_chooser_button1">"Button1"</string>
+    <string name="asus_theme_chooser_button2">"Button2"</string>
+    <string name="asus_theme_chooser_default_theme_warning">"Cannot delete default Theme"</string>
+    <string name="asus_theme_chooser_description">"Description"</string>
+    <string name="asus_theme_chooser_description_default">"Freedom, connection, and expression--see the functional design of ZenUI using this default ASUS theme."</string>
+    <string name="asus_theme_chooser_download">"Download"</string>
+    <string name="asus_theme_chooser_downloading">"Data Downloading…"</string>
+    <string name="asus_theme_chooser_gallery">"gallery"</string>
+    <string name="asus_theme_chooser_httpError">"There was a network error."</string>
+    <string name="asus_theme_chooser_installed">"Installed"</string>
+    <string name="asus_theme_chooser_link_to">"Link to …"</string>
+    <string name="asus_theme_chooser_my_theme">"My Themes"</string>
+    <string name="asus_theme_chooser_my_theme_up_to_date">"Up to date"</string>
+    <string name="asus_theme_chooser_name">"name"</string>
+    <string name="asus_theme_chooser_no_network">"Please check your network settings\n then try again"</string>
+    <string name="asus_theme_chooser_no_network_warning">"Please turn on network"</string>
+    <string name="asus_theme_chooser_no_themes">"No available themes"</string>
+    <string name="asus_theme_chooser_online">"Online"</string>
+    <string name="asus_theme_chooser_retry">"Retry"</string>
+    <string name="asus_theme_chooser_share">"Share"</string>
+    <string name="asus_theme_chooser_share_to">"Share To …"</string>
+    <string name="asus_theme_chooser_size">"size"</string>
+    <string name="asus_theme_chooser_theme_item_app">"Theme Name"</string>
+    <string name="asus_theme_chooser_uninstall">"Delete"</string>
+    <string name="asus_theme_chooser_update">"Update"</string>
+    <string name="asus_theme_chooser_version">"version"</string>
+    <string name="asus_launcher_themestore_downloading" description="" maxwidth="-1">"Downloading"</string>
+    <string name="asus_launcher_themestore_download_complete" description="" maxwidth="-1">"Download complete"</string>
+    <string name="asus_launcher_themestore_download_complete_toast" description="" maxwidth="-1">"download completed."</string>
+    <string name="asus_launcher_themestore_download_failed" description="" maxwidth="-1">"Download failed"</string>
+    <string name="asus_launcher_themestore_insufficient_store" description="" maxwidth="-1">"Insufficient system storage."</string>
+    <!-- QuickFind start -->
+    <!-- Search Settings -->
+    <string name="quick_find_settings_label">"Search settings"</string>
+    <string name="search_engine_list_title">"Select search engine"</string>
+    <string name="quick_find_search_result_title">"Search result"</string>
+    <string name="search_result_local_apps">"Apps"</string>
+    <string name="trending_locale">"Region"</string>
+    <string name="search_result_clear_all_history">"Clear search history"</string>
+    <!-- Module: HotTrend -->
+    <string name="hot_trend_title">"Trending searches"</string>
+    <!-- Module: Contact -->
+    <string name="contact_title">"Contacts"</string>
+    <string name="footer_text_more_contacts">"More contacts"</string>
+    <string name="footer_text_result">"%1$d results"</string>
+    <string name="dialog_phone_number_picker_title">"Choose number"</string>
+    <!-- Module: RecommendedApp -->
+    <string name="frequent_app_title">"Frequently-used"</string>
+    <string name="quick_find_dummy_long_string" translatable="false">"This is a long string for UI issue. DO NOT translate it."</string>
+    <!-- Trending Locale List -->
+    <string name="trending_locale_AUTO">"Use system region"</string>
+    <string name="trending_locale_US">"United States"</string>
+    <string name="trending_locale_IN">"India"</string>
+    <string name="trending_locale_JP">"Japan"</string>
+    <string name="trending_locale_SG">"Singapore"</string>
+    <string name="trending_locale_IL">"Israel"</string>
+    <string name="trending_locale_AU">"Australia"</string>
+    <string name="trending_locale_GB">"United Kingdom"</string>
+    <string name="trending_locale_HK">"Hong Kong"</string>
+    <string name="trending_locale_TW">"Taiwan"</string>
+    <string name="trending_locale_CA">"Canada"</string>
+    <string name="trending_locale_RA">"Russia"</string>
+    <string name="trending_locale_DE">"Germany"</string>
+    <string name="trending_locale_FR">"France"</string>
+    <string name="trending_locale_NL">"Netherlands"</string>
+    <string name="trending_locale_BR">"Brazil"</string>
+    <string name="trending_locale_ID">"Indonesia"</string>
+    <string name="trending_locale_MX">"Mexico"</string>
+    <string name="trending_locale_KR">"Korea"</string>
+    <string name="trending_locale_TR">"Turkey"</string>
+    <string name="trending_locale_PH">"Philippines"</string>
+    <string name="trending_locale_ES">"Spain"</string>
+    <string name="trending_locale_IT">"Italy"</string>
+    <string name="trending_locale_VN">"Vietnam"</string>
+    <string name="trending_locale_EG">"Egypt"</string>
+    <string name="trending_locale_AR">"Argentina"</string>
+    <string name="trending_locale_PL">"Poland"</string>
+    <string name="trending_locale_CO">"Colombia"</string>
+    <string name="trending_locale_TH">"Thailand"</string>
+    <string name="trending_locale_MY">"Malaysia"</string>
+    <string name="trending_locale_UA">"Ukraine"</string>
+    <string name="trending_locale_SA">"Saudi Arabia"</string>
+    <string name="trending_locale_KE">"Kenya"</string>
+    <string name="trending_locale_CL">"Chile"</string>
+    <string name="trending_locale_RO">"Romania"</string>
+    <string name="trending_locale_MD">"Moldova"</string>
+    <string name="trending_locale_ZA">"South Africa"</string>
+    <string name="trending_locale_BE">"Belgium"</string>
+    <string name="trending_locale_SE">"Sweden"</string>
+    <string name="trending_locale_CZ">"Czech Republic"</string>
+    <string name="trending_locale_AT">"Austria"</string>
+    <string name="trending_locale_HU">"Hungary"</string>
+    <string name="trending_locale_CH">"Switzerland"</string>
+    <string name="trending_locale_PT">"Portugal"</string>
+    <string name="trending_locale_GR">"Greece"</string>
+    <string name="trending_locale_DK">"Denmark"</string>
+    <string name="trending_locale_FI">"Finland"</string>
+    <string name="trending_locale_NO">"Norway"</string>
+    <string name="trending_locale_NG">"Nigeria"</string>
+    <string name="trending_locale_CN">"China"</string>
+    <string name="trending_locale_value_AUTO" translatable="false">"AUTO"</string>
+    <!-- QuickFind end-->
+
+    <string name="workspace_chooser_feedback_button" description="" maxwidth="-1">"Feedback &amp; Help"</string>
+</resources>
